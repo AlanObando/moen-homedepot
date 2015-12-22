@@ -1,0 +1,253 @@
+/* */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#ad {
+    display: block;
+    border: #8b8b8b 1px solid;
+    overflow: hidden;
+    width: 158px;
+    height: 598px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    margin: 100px auto;
+}
+
+#banner {
+    position: absolute;
+    display: block;
+    width: 158px;
+    height: 598px;
+    background-color: #d6d6d6;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* elements by ID */
+
+#homedepot {
+    position: absolute;
+    top: 23px;
+    left: 43px;
+    z-index: 20;
+}
+
+#cta {
+    position: absolute;
+    width: 111px;
+    height: 26px;
+    left: 13px;
+    top: 448px;
+    border-radius: 2px;
+    z-index: 19;
+    border: #cf6e1b solid 1px;
+    opacity: 0;
+    background: -webkit-linear-gradient(0deg, #e6781e, #f0b428);
+    background: -o-linear-gradient(0deg, #e6781e, #f0b428);
+    background: -moz-linear-gradient(0deg, #e6781e, #f0b428);
+    background: linear-gradient(0deg, #e6781e, #f0b428);
+}
+
+#cta svg {
+    position: absolute;
+    top: 8px;
+    left: 13px;
+}
+
+#cta:hover {
+    background: -webkit-linear-gradient(0deg, #f0b428, #e6781e);
+    background: -o-linear-gradient(0deg, #f0b428, #e6781e);
+    background: -moz-linear-gradient(0deg, #f0b428, #e6781e);
+    background: linear-gradient(0deg, #f0b428, #e6781e);
+}
+
+/*------------------------------- frame1 -------------------------------*/
+
+#frame1 {
+    position: absolute;
+    z-index: 1;
+}
+
+#img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#text1 {
+    position: absolute;
+    left: 28px;
+    top: 456px;
+    opacity: 0;
+    z-index: 2;
+}
+
+#drop {
+    position: absolute;
+    top: 252px;
+    left: 75px;
+    transform-origin: 0% 50%;
+    -ms-transform-origin: 0% 50%;
+    -webkit-transform-origin: 0% 50%;
+}
+
+#drop_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 600px;
+    clip: rect(315px,160px,600px,0);
+}
+
+/*------------------------------- frame2 -------------------------------*/
+
+#frame2 {
+    position: absolute;
+    z-index: 2;
+    width: 160px;
+    height: 600px;
+    clip: rect(0,80px,600px,80px);
+}
+
+#img2, #img3 {
+    position: absolute;
+    top: 104px;
+    left: 36px;
+}
+
+#img4 {
+    position: absolute;
+    top: 101px;
+    left: 49px;
+    transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;
+    clip: rect(0,103px,306px,0);
+    opacity: 0;
+}
+
+#water {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#water_container {
+    position: absolute;
+    top: 331px;
+    left: -89px;
+    transform-origin: 100% 50%;
+    -ms-transform-origin: 100% 50%;
+    -webkit-transform-origin: 100% 50%;
+    clip: rect(0, 238px,101px,238px);
+    transform: rotate(-65deg);
+    -ms-transform: rotate(-65deg);
+    -webkit-transform: rotate(-65deg);
+}
+
+#text2 {
+    position: absolute;
+    left: 41px;
+    top: 456px;
+    opacity: 0;
+}
+
+#text3 {
+    position: absolute;
+    left: 42px;
+    top: 479px;
+    opacity: 0;
+}
+
+#text4, #text5 {
+    position: absolute;
+    left: 14px;
+    opacity: 0;
+}
+
+#text4 {
+    top: 341px;
+}
+
+#text5 {
+    top: 384px;
+}
+
+#magnetix {
+    position: absolute;
+    top: 275px;
+    left: 0;
+}
+
+#moenlogo {
+    position: absolute;
+    bottom: 28px;
+    left: 27px;
+}
+
+#letsdo {
+    position: absolute;
+    left: 0;
+    top: 462px;
+    clip: rect(0, 0, 70px, 0);
+}
+
+#disclaimer {
+    position: absolute;
+    bottom: 16px;
+    left: 14px;
+    font-family: Arial, san serif;
+    font-size: 9px;
+    color: #000000;
+    opacity: 0;
+}
+
+#bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
